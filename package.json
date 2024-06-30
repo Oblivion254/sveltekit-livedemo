@@ -24,5 +24,8 @@
     "vite": "^5.0.3"
   },
   "type": "module",
-  "module": "index.ts"
+  "module": "index.ts",
+  "dependencies": {
+    "@vercel/postgres": "^0.9.0"
+  }
 }
